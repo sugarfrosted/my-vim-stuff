@@ -89,16 +89,6 @@ filetype indent on
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
 
-let g:yidl=0
-let g:testvar=0
-
-
-function! InitYidl()
-    let g:testvar=1
-    if !exists("w:yidl")
-        let w:yidl=0
-    endif
-endfunction
 
 "autocmd WinEnter :call InitYidl()
 
@@ -120,12 +110,15 @@ function! Composure()
 endfunction
 
 function! YiddishKeyBoard()
-    if g:yidl
+    if !exists("w:yidl") "sets default value for w:yidl if not yet set
+        let w:yidl=0
+    endif
+    if w:yidl
         set spelllang=en_us
         set norightleft
         set keymap=""
         set norevins
-        let g:yidl=0
+        let w:yidl = 0
         echo "English"
         unmap \|
     else
@@ -141,7 +134,7 @@ function! YiddishKeyBoard()
         if !&termbidi
             set rightleft
         endif
-        let g:yidl=1
+        let w:yidl=1
         map \| :Precomp<Enter>
     endif
 endfunction
