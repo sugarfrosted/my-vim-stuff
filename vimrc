@@ -53,15 +53,9 @@ autocmd BufRead,BufNewFile *.tex command Parag :call ParagraphPaging()
 
 function! ParagraphPaging() "swaps row and line changing keys.
     if !exists("g:paragraphMode")
-        let g:paragraphMode=1
-        unmap k
-        unmap j
-        unmap gj
-        unmap gk
-        unmap <down>
-        unmap <up>
-        echo "Paragraph Paging"
-    elseif g:paragraphMode==0
+        let g:paragraphMode=0
+    endif
+    if g:paragraphMode==0
         let g:paragraphMode=1
         unmap k
         unmap j
@@ -81,30 +75,6 @@ function! ParagraphPaging() "swaps row and line changing keys.
     endif
 endfunction
 
-map אַ a
-map א A
-map ג g
-map י i
-map יִ I
-map אָ o
-map _ O
-map ו u
-map וּ U
-map ס s
-map ת S
-map כ x
-map ט :set rightleft<Enter>
-map ֦  D
-map ד d
-map ר r
-map װ v
-"map V V
-map ׃ :
-map ׃ש :w
-map ז z
-map ייִ :set spelllang=yi<Enter>
-map yi :set spelllang=yi<Enter>
-map en :set spelllang=en_us<Enter>
 
 
 " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
