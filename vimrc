@@ -40,8 +40,46 @@ autocmd BufRead,BufNewFile *.tex vmap <F9> :w !detex \| wc -w<enter>
 autocmd BufRead,BufNewFile *.tex vmap \\wc :w !detex \| wc -w<enter>
 autocmd BufRead,BufNewFile *.tex vmap \\WC :w !detex \| wc -w<enter>
 autocmd BufRead,BufNewFile *.tex imap <F8> :Yidkey<Enter>
+"key paging remaps
+autocmd BufRead,BufNewFile *.tex nnoremap j gj
+autocmd BufRead,BufNewFile *.tex nnoremap k gk
+autocmd BufRead,BufNewFile *.tex nnoremap gj j
+autocmd BufRead,BufNewFile *.tex nnoremap gk k
+autocmd BufRead,BufNewFile *.tex nnoremap <down> gj
+autocmd BufRead,BufNewFile *.tex nnoremap <up> gk
+
+autocmd BufRead,BufNewFile *.tex command Parag :call ParagraphPaging()
 
 
+function! ParagraphPaging() "swaps row and line changing keys.
+    if !exists("g:paragraphMode")
+        let g:paragraphMode=1
+        unmap k
+        unmap j
+        unmap gj
+        unmap gk
+        unmap <down>
+        unmap <up>
+        echo "Paragraph Paging"
+    elseif g:paragraphMode==0
+        let g:paragraphMode=1
+        unmap k
+        unmap j
+        unmap gj
+        unmap gk
+        unmap <down>
+        unmap <up>
+        echo "Paragraph Paging"
+    else
+        nnoremap j gj
+        nnoremap k gk
+        nnoremap gk k
+        nnoremap gj j
+        nnoremap <down> gj
+        nnoremap <up> gk
+        echo "Line Paging"
+    endif
+endfunction
 
 map אַ a
 map א A
@@ -89,9 +127,6 @@ filetype indent on
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
 
-
-"autocmd WinEnter :call InitYidl()
-
 let g:precomposed=1
 function! Composure()
     if g:precomposed
@@ -111,9 +146,9 @@ endfunction
 
 function! YiddishKeyBoard()
     if !exists("w:yidl") "sets default value for w:yidl if not yet set
-        let w:yidl=0
+        let w:yidl=0 "assumed initial value
     endif
-    if w:yidl
+    if w:yidl "turns off yiddish mode and switches back to english
         set spelllang=en_us
         set norightleft
         set keymap=""
@@ -131,7 +166,10 @@ function! YiddishKeyBoard()
             set spelllang=yi
             echo "Non-Precomposed Yiddish"
         endif
-        if !&termbidi
+        if &termbidi
+            nnoremap h l
+            nnoremap l h
+        else
             set rightleft
         endif
         let w:yidl=1
