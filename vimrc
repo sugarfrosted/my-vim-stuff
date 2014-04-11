@@ -147,6 +147,36 @@ function! YiddishKeyBoard()
     endif
 endfunction
 
+function! YiddishComposingTranslation()
+    if !exists("w:yidl")
+        let w:yidl=0
+    endif
+    if w:yidl
+        if g:precomposed
+            let g:directionlist=["Non-Precomposed Yiddish","Precomposed Yiddish"]
+        else 
+            let g:directionlist=["Precomposed Yiddish","Non-Precomposed Yiddish"]
+        endif
+        if &modified
+            echo "File has been modified"
+        else
+            let w:butt=0
+            while w:butt==0
+                call inputsave()
+                let w:butt=confirm("Would you like to translate " . @% . " from " . g:directionlist[0] . " to " . g:directionlist[1] . "?", "&Yes\n&no")
+                call inputrestore()
+            endwhile
+            if w:butt==1
+                if g:precomposed
+                    execute "!" . "python $HOME/.vim/pythonscripts/composing.py " . @% . ">" . @% . ".tmp; cp " . @% . ".tmp " . @%
+                else
+                    execute "!" . "python $HOME/.vim/pythonscripts/decomposing.py " . @% . ">" . @% . ".tmp; cp " . @% . ".tmp " . @%
+                endif
+            endif
+        endif
+    endif
+endfunction
+
 
 command Yidkey :call YiddishKeyBoard()
 command Precomp :call Composure()
