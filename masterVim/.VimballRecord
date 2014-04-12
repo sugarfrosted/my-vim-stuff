@@ -1,0 +1,1 @@
+unicode-0.17.vmb: call delete('/Users/sugarfrosted/.vim/plugin/unicode.vim')|call delete('/Users/sugarfrosted/.vim/autoload/unicode.vim')|call delete('/Users/sugarfrosted/.vim/doc/unicode.txt')
