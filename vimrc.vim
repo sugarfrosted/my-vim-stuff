@@ -11,21 +11,20 @@ set encoding=utf-8
 set maxcombine=3
 execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-
+set showcmd
 " Enable use of the mouse for all modes
 set mouse=a
 
 " Use <F11> to toggle between 'paste' and 'nopaste'
 set pastetoggle=<F11>
+set pastetoggle=<Leader>p
 
 
-autocmd BufRead,BufNewFile *.tikz set call TexSetup()
+autocmd BufRead,BufNewFile *.tikz call TexSetup()
 
-autocmd BufRead,BufNewFile *.mac set filetype=maxima
-autocmd BufRead,BufNewFile *.mac set number
-autocmd BufRead,BufNewFile *.mac RltvNmbr
+autocmd BufRead,BufNewFile *.mac call MaximaSetup()
 
-
+let g:signify_exceptions_filetype = [ 'maxima' ]
 "bibtex files
 
 autocmd BufRead,BufNewFile *.bib call BibSetup()
@@ -35,6 +34,13 @@ autocmd BufRead,BufNewFile *.bibtex call BibSetup()
 autocmd BufRead,BufNewFile *.tex call TexSetup()
 
 autocmd BufRead,BufNewFile *.py call PythonSetup()
+
+function! MaximaSetup()
+    set filetype=maxima
+    set number
+    RltvNmbr
+    let g:signify_mapping_toggle = '<leader>sg'
+endfunction
 
 function! TexSetup()
     set filetype=tex
@@ -49,8 +55,8 @@ function! TexSetup()
     map t :Yidkey<Enter>
     map T :Yidkey<Enter>
     vmap <F9> :w !detex \| wc -w<enter>
-    map \c :call YiddishComposingTranslation()<Enter>
-    vmap \wc :w !detex \| wc -w<enter>
+    map <Leader>c :call YiddishComposingTranslation()<Enter>
+    vmap <Leader>wc :w !detex \| wc -w<enter>
     imap <F8> :Yidkey<Enter>
 "key paging remaps
     nnoremap j gj
