@@ -12,43 +12,69 @@ set maxcombine=3
 execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-autocmd BufRead,BufNewFile *.tikz set filetype=tex
+" Enable use of the mouse for all modes
+set mouse=a
+
+" Use <F11> to toggle between 'paste' and 'nopaste'
+set pastetoggle=<F11>
+
+
+autocmd BufRead,BufNewFile *.tikz set call TexSetup()
 
 autocmd BufRead,BufNewFile *.mac set filetype=maxima
 autocmd BufRead,BufNewFile *.mac set number
+autocmd BufRead,BufNewFile *.mac RltvNmbr
+
 
 "bibtex files
-autocmd BufRead,BufNewFile *.bib set tabstop=2
-autocmd BufRead,BufNewFile *.bib set shiftwidth=2
-autocmd BufRead,BufNewFile *.bib set foldmethod=indent
-autocmd BufRead,BufNewFile *.bib set foldcolumn=1
 
-autocmd BufRead,BufNewFile *.bibtex set filetype=bib
-autocmd BufRead,BufNewFile *.bibtex set tabstop=2
-autocmd BufRead,BufNewFile *.bibtex set shiftwidth=2
-autocmd BufRead,BufNewFile *.bibtex set foldmethod=indent
-autocmd BufRead,BufNewFile *.bibtex set foldcolumn=1
+autocmd BufRead,BufNewFile *.bib call BibSetup()
 
-autocmd BufRead,BufNewFile *.tex set foldcolumn=6
-autocmd BufRead,BufNewFile *.tex set linebreak
-"autocmd BufRead,BufNewFile *.tex set wrapmargin=7
-autocmd BufRead,BufNewFile *.tex set spell
-autocmd BufRead,BufNewFile *.tex set breakindent showbreak=\ \ 
-autocmd BufRead,BufNewFile *.tex map t :Yidkey<Enter>
-autocmd BufRead,BufNewFile *.tex map T :Yidkey<Enter>
-autocmd BufRead,BufNewFile *.tex vmap <F9> :w !detex \| wc -w<enter>
-autocmd BufRead,BufNewFile *.tex vmap \\wc :w !detex \| wc -w<enter>
-autocmd BufRead,BufNewFile *.tex vmap \\WC :w !detex \| wc -w<enter>
-autocmd BufRead,BufNewFile *.tex imap <F8> :Yidkey<Enter>
+autocmd BufRead,BufNewFile *.bibtex call BibSetup()
+
+autocmd BufRead,BufNewFile *.tex call TexSetup()
+
+autocmd BufRead,BufNewFile *.py call PythonSetup()
+
+function! TexSetup()
+    set filetype=tex
+    if !exists(":Parag")
+        command Parag :call ParagraphPaging()
+    endif
+    set foldcolumn=6
+    set linebreak
+"    set wrapmargin=7
+    set spell
+    set breakindent showbreak=..
+    map t :Yidkey<Enter>
+    map T :Yidkey<Enter>
+    vmap <F9> :w !detex \| wc -w<enter>
+    map \c :call YiddishComposingTranslation()<Enter>
+    vmap \wc :w !detex \| wc -w<enter>
+    imap <F8> :Yidkey<Enter>
 "key paging remaps
-autocmd BufRead,BufNewFile *.tex nnoremap j gj
-autocmd BufRead,BufNewFile *.tex nnoremap k gk
-autocmd BufRead,BufNewFile *.tex nnoremap gj j
-autocmd BufRead,BufNewFile *.tex nnoremap gk k
-autocmd BufRead,BufNewFile *.tex nnoremap <down> gj
-autocmd BufRead,BufNewFile *.tex nnoremap <up> gk
+    nnoremap j gj
+    nnoremap k gk
+    nnoremap gj j
+    nnoremap gk k
+    nnoremap <down> gj
+    nnoremap <up> gk
+    set relativenumber
+endfunction
 
-autocmd BufRead,BufNewFile *.tex command Parag :call ParagraphPaging()
+function! BibSetup()
+    set filetype=bib
+    set tabstop=2
+    set shiftwidth=2
+    set foldmethod=indent
+    set foldcolumn=1
+endfunction
+
+
+function! PythonSetup()
+    set filetype=python
+    set relativenumber
+endfunction
 
 
 function! ParagraphPaging() "swaps row and line changing keys.
@@ -158,25 +184,34 @@ function! YiddishComposingTranslation()
             let g:directionlist=["Precomposed Yiddish","Non-Precomposed Yiddish"]
         endif
         if &modified
-            echo "File has been modified"
-        else
-            let w:butt=0
-            while w:butt==0
-                call inputsave()
-                let w:butt=confirm("Would you like to translate " . @% . " from " . g:directionlist[0] . " to " . g:directionlist[1] . "?", "&Yes\n&no")
+            let w:anyway=0
+            while w:anyway==0
+                call inputsave() 
+                let w:anyway=confirm("File ``" . @% . "'' modified. Would you like to continue anyway?","&Yes\n&no")
                 call inputrestore()
             endwhile
-            if w:butt==1
-                if g:precomposed
-                    execute "!" . "python $HOME/.vim/pythonscripts/composing.py " . @% . ">" . @% . ".tmp; cp " . @% . ".tmp " . @%
-                else
-                    execute "!" . "python $HOME/.vim/pythonscripts/decomposing.py " . @% . ">" . @% . ".tmp; cp " . @% . ".tmp " . @%
-                endif
+            if w:anyway==2
+                 return 0
             endif
         endif
+        let w:butt=0
+        while w:butt==0
+            call inputsave()
+            let w:butt=confirm("Would you like to translate " . @% . " from " . g:directionlist[0] . " to " . g:directionlist[1] . "?", "&Yes\n&no")
+            call inputrestore()
+        endwhile
+        if w:butt==1
+            let w:autoreadstatus=&autoread
+            set autoread
+            execute "!" . "python $HOME/.vim/pythonscripts/composing.py " . @% . " " . g:precomposed ">" . @% . ".tmp; cp " . @% . ".tmp " . @%
+            let &autoread=w:autoreadstatus
+        endif
+    else
+        echo "File not in Yiddish"
     endif
 endfunction
 
 
 command Yidkey :call YiddishKeyBoard()
 command Precomp :call Composure()
+command CompTrans :call YiddishComposingTranslation()
