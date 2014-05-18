@@ -1,0 +1,512 @@
+2014-05-06 20:18:43.255848
+/Users/sugarfrosted/.vim/bundle/ctrlp.vim
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/LaTeX-Box
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/RltvNmbr
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/syntastic
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/vim-airline
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/vim-autoclose
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/vim-fugitive
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/vim-itunes
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/vim-signify
+Already up-to-date.
+
+/Users/sugarfrosted/.vim/bundle/vim-snippets
+Already up-to-date.
+
+file pulling
+2014-05-12 00:27:01.726137
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+./
+.SyncArchive/
+.git/
+.git/FETCH_HEAD
+masterVim/
+masterVim/.netrwhist
+masterVim/pullall.log
+masterVim/pullall.txt
+masterVim/bundle/LaTeX-Box/.git/
+masterVim/bundle/LaTeX-Box/.git/FETCH_HEAD
+masterVim/bundle/RltvNmbr/.git/
+masterVim/bundle/RltvNmbr/.git/FETCH_HEAD
+masterVim/bundle/UnconditionalPaste/.git/
+masterVim/bundle/UnconditionalPaste/.git/FETCH_HEAD
+masterVim/bundle/applescript.vim/.git/
+masterVim/bundle/applescript.vim/.git/FETCH_HEAD
+masterVim/bundle/ctrlp.vim/.git/
+masterVim/bundle/ctrlp.vim/.git/FETCH_HEAD
+masterVim/bundle/syntastic/.git/
+masterVim/bundle/syntastic/.git/FETCH_HEAD
+masterVim/bundle/syntastic/.git/ORIG_HEAD
+masterVim/bundle/syntastic/.git/index
+masterVim/bundle/syntastic/.git/logs/HEAD
+masterVim/bundle/syntastic/.git/logs/refs/heads/master
+masterVim/bundle/syntastic/.git/logs/refs/remotes/origin/master
+masterVim/bundle/syntastic/.git/objects/
+masterVim/bundle/syntastic/.git/objects/20/
+masterVim/bundle/syntastic/.git/objects/20/71be55415b78f6b938f10784b05d228ea5f6dc
+masterVim/bundle/syntastic/.git/objects/3b/
+masterVim/bundle/syntastic/.git/objects/3b/b121df3fde3fa29c9dad604730f04a726cde03
+masterVim/bundle/syntastic/.git/objects/50/
+masterVim/bundle/syntastic/.git/objects/50/518b335d6bc486c895d4cb34c29417238cbe81
+masterVim/bundle/syntastic/.git/objects/7b/
+masterVim/bundle/syntastic/.git/objects/7b/faba53d2be93508c3df56f94abac900b683d69
+masterVim/bundle/syntastic/.git/objects/92/
+masterVim/bundle/syntastic/.git/objects/92/db56bac134644d934bd8078f684bfb80ed18b1
+masterVim/bundle/syntastic/.git/objects/a8/
+masterVim/bundle/syntastic/.git/objects/a8/47e271e17ca5909d05c4faefa6aa3bf5d1d920
+masterVim/bundle/syntastic/.git/objects/c2/
+masterVim/bundle/syntastic/.git/objects/c2/cf2601b4eb96a1341e7263b95dfcc851d4ecc8
+masterVim/bundle/syntastic/.git/objects/e3/
+masterVim/bundle/syntastic/.git/objects/e3/451d824255fc541d0cd1312943c09c9b833f9a
+masterVim/bundle/syntastic/.git/refs/heads/
+masterVim/bundle/syntastic/.git/refs/heads/master
+masterVim/bundle/syntastic/.git/refs/remotes/origin/
+masterVim/bundle/syntastic/.git/refs/remotes/origin/master
+masterVim/bundle/syntastic/doc/
+masterVim/bundle/syntastic/doc/syntastic.txt
+masterVim/bundle/syntastic/plugin/
+masterVim/bundle/syntastic/plugin/syntastic.vim
+masterVim/bundle/syntastic/plugin/syntastic/
+masterVim/bundle/syntastic/plugin/syntastic/highlighting.vim
+masterVim/bundle/vim-airline/.git/
+masterVim/bundle/vim-airline/.git/FETCH_HEAD
+masterVim/bundle/vim-autoclose/.git/
+masterVim/bundle/vim-autoclose/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/
+masterVim/bundle/vim-fugitive/.git/FETCH_HEAD
+masterVim/bundle/vim-signify/.git/
+masterVim/bundle/vim-signify/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/
+masterVim/bundle/vim-snippets/.git/FETCH_HEAD
+
+sent 105133 bytes  received 1736 bytes  23748.67 bytes/sec
+total size is 47551083  speedup is 444.95
+file pulling
+2014-05-12 12:27:00.587275
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+.git/
+.git/FETCH_HEAD
+masterVim/pullall.log
+masterVim/bundle/LaTeX-Box/.git/
+masterVim/bundle/LaTeX-Box/.git/FETCH_HEAD
+masterVim/bundle/RltvNmbr/.git/
+masterVim/bundle/RltvNmbr/.git/FETCH_HEAD
+masterVim/bundle/UnconditionalPaste/.git/
+masterVim/bundle/UnconditionalPaste/.git/FETCH_HEAD
+masterVim/bundle/applescript.vim/.git/
+masterVim/bundle/applescript.vim/.git/FETCH_HEAD
+masterVim/bundle/ctrlp.vim/.git/
+masterVim/bundle/ctrlp.vim/.git/FETCH_HEAD
+masterVim/bundle/syntastic/.git/
+masterVim/bundle/syntastic/.git/FETCH_HEAD
+masterVim/bundle/vim-airline/.git/
+masterVim/bundle/vim-airline/.git/FETCH_HEAD
+masterVim/bundle/vim-autoclose/.git/
+masterVim/bundle/vim-autoclose/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/
+masterVim/bundle/vim-fugitive/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/index
+masterVim/bundle/vim-fugitive/.git/logs/HEAD
+masterVim/bundle/vim-fugitive/.git/logs/refs/heads/master
+masterVim/bundle/vim-fugitive/.git/logs/refs/remotes/origin/master
+masterVim/bundle/vim-fugitive/.git/objects/
+masterVim/bundle/vim-fugitive/.git/objects/6b/
+masterVim/bundle/vim-fugitive/.git/objects/6b/64bcaf0ea8f581ba91a0f54dc4b4975cbdadfe
+masterVim/bundle/vim-fugitive/.git/objects/b1/
+masterVim/bundle/vim-fugitive/.git/objects/b1/4cb3a03f0f84de2e388356d63e376f2a5a99b5
+masterVim/bundle/vim-fugitive/.git/objects/dd/
+masterVim/bundle/vim-fugitive/.git/objects/dd/b663fbfa01e2168946f13d16a28a391b46c21c
+masterVim/bundle/vim-fugitive/.git/objects/f8/
+masterVim/bundle/vim-fugitive/.git/objects/f8/bf95b9ff838ede04ab02487524849fb03a2576
+masterVim/bundle/vim-fugitive/.git/refs/heads/
+masterVim/bundle/vim-fugitive/.git/refs/heads/master
+masterVim/bundle/vim-fugitive/.git/refs/remotes/origin/
+masterVim/bundle/vim-fugitive/.git/refs/remotes/origin/master
+masterVim/bundle/vim-fugitive/plugin/
+masterVim/bundle/vim-fugitive/plugin/fugitive.vim
+masterVim/bundle/vim-signify/.git/
+masterVim/bundle/vim-signify/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/
+masterVim/bundle/vim-snippets/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/index
+masterVim/bundle/vim-snippets/.git/logs/HEAD
+masterVim/bundle/vim-snippets/.git/logs/refs/heads/master
+masterVim/bundle/vim-snippets/.git/logs/refs/remotes/origin/master
+masterVim/bundle/vim-snippets/.git/objects/
+masterVim/bundle/vim-snippets/.git/objects/02/
+masterVim/bundle/vim-snippets/.git/objects/02/b95e1e2e7e7e8395c5a628299c69bb39abd4f8
+masterVim/bundle/vim-snippets/.git/objects/03/
+masterVim/bundle/vim-snippets/.git/objects/03/26b5ba97f69d493c426a7986752b37394a706b
+masterVim/bundle/vim-snippets/.git/objects/04/
+masterVim/bundle/vim-snippets/.git/objects/04/5eebedadc55a1c36c1eb0ef591383f46a33d80
+masterVim/bundle/vim-snippets/.git/objects/0b/
+masterVim/bundle/vim-snippets/.git/objects/0b/41f145b4aef114c826aab9c52758e0e662d369
+masterVim/bundle/vim-snippets/.git/objects/0d/
+masterVim/bundle/vim-snippets/.git/objects/0d/5eb18f95cc21606cd3cd2c4407aec26ce06a02
+masterVim/bundle/vim-snippets/.git/objects/14/
+masterVim/bundle/vim-snippets/.git/objects/14/06df6fe3bd14c879c11a75ba54cb79ba37fba0
+masterVim/bundle/vim-snippets/.git/objects/17/
+masterVim/bundle/vim-snippets/.git/objects/17/fa61216b09f4d8c736b8d8a16e658aa02ef440
+masterVim/bundle/vim-snippets/.git/objects/24/
+masterVim/bundle/vim-snippets/.git/objects/24/388213403098463b9c58a3023202e3a2b6b310
+masterVim/bundle/vim-snippets/.git/objects/26/
+masterVim/bundle/vim-snippets/.git/objects/26/72bde2fb1d9846ead1fa3285f451f0d71957c6
+masterVim/bundle/vim-snippets/.git/objects/27/
+masterVim/bundle/vim-snippets/.git/objects/27/c2c2ba7beb2ee8ac861eb34206599fa016f5b5
+masterVim/bundle/vim-snippets/.git/objects/29/
+masterVim/bundle/vim-snippets/.git/objects/29/a684adeee2f2fecfd7a5a0c5fae351a303882b
+masterVim/bundle/vim-snippets/.git/objects/30/
+masterVim/bundle/vim-snippets/.git/objects/30/1ab2b5cb7cc99ab992faed35fe25b89704073c
+masterVim/bundle/vim-snippets/.git/objects/30/f86f5fdea50e9bbbc9df5f2be8774c7d17e6de
+masterVim/bundle/vim-snippets/.git/objects/31/
+masterVim/bundle/vim-snippets/.git/objects/31/8e36fefaf171f244909b7c4242969dbee5db4f
+masterVim/bundle/vim-snippets/.git/objects/33/
+masterVim/bundle/vim-snippets/.git/objects/33/830aea0c3122a3fe9f52ecbe9a8638f1106a4c
+masterVim/bundle/vim-snippets/.git/objects/36/
+masterVim/bundle/vim-snippets/.git/objects/36/655f857634ba37d786e16ace79e86b3c040500
+masterVim/bundle/vim-snippets/.git/objects/37/
+masterVim/bundle/vim-snippets/.git/objects/37/fcc91b63250bc10d6aaf98c8769a01d5a3d23a
+masterVim/bundle/vim-snippets/.git/objects/39/
+masterVim/bundle/vim-snippets/.git/objects/39/4b8c1604e0b69263431f15c60ef4dbb7954ae4
+masterVim/bundle/vim-snippets/.git/objects/3c/
+masterVim/bundle/vim-snippets/.git/objects/3c/b138312fa235ccac0ab9a813aff57be79a95df
+masterVim/bundle/vim-snippets/.git/objects/3f/
+masterVim/bundle/vim-snippets/.git/objects/3f/93f6f4bf7a75f826b8ecc7065076a5389803a5
+masterVim/bundle/vim-snippets/.git/objects/48/
+masterVim/bundle/vim-snippets/.git/objects/48/7c1f4b77340d126d6ec90636825048df3fa461
+masterVim/bundle/vim-snippets/.git/objects/4e/
+masterVim/bundle/vim-snippets/.git/objects/4e/d409154bcaa32fba6fd153cc0c915e44982872
+masterVim/bundle/vim-snippets/.git/objects/57/
+masterVim/bundle/vim-snippets/.git/objects/57/bc4fac910809ed1e745531ca44296f171b9801
+masterVim/bundle/vim-snippets/.git/objects/5b/
+masterVim/bundle/vim-snippets/.git/objects/5b/30a13156272a7c2455ac846632578a50b8af8e
+masterVim/bundle/vim-snippets/.git/objects/63/
+masterVim/bundle/vim-snippets/.git/objects/63/dfd59053c0b6cb9baf439d7419649c92fcd151
+masterVim/bundle/vim-snippets/.git/objects/7a/
+masterVim/bundle/vim-snippets/.git/objects/7a/dbe2eed7dd7c08a6f8745242bce702e6544899
+masterVim/bundle/vim-snippets/.git/objects/85/
+masterVim/bundle/vim-snippets/.git/objects/85/004a6c6008067bf1f86d9a411c7d68114bafd6
+masterVim/bundle/vim-snippets/.git/objects/9c/
+masterVim/bundle/vim-snippets/.git/objects/9c/e807e152a328f040f1daf0d7297684f3961f6a
+masterVim/bundle/vim-snippets/.git/objects/9d/
+masterVim/bundle/vim-snippets/.git/objects/9d/77da093b3bd88fde2e38c0bd1a5436fb6601bc
+masterVim/bundle/vim-snippets/.git/objects/ab/
+masterVim/bundle/vim-snippets/.git/objects/ab/27a6ae5537b95b77a2f43127bae3bd1c1415f7
+masterVim/bundle/vim-snippets/.git/objects/ab/5786a48dcaafb009edb0dbe7a13c77dc1caed6
+masterVim/bundle/vim-snippets/.git/objects/b2/
+masterVim/bundle/vim-snippets/.git/objects/b2/99f5121ead47a16dfe8103d21553d697eb4e12
+masterVim/bundle/vim-snippets/.git/objects/cd/
+masterVim/bundle/vim-snippets/.git/objects/cd/096e359aacc9f11dcdd33c8e9fd048234a8702
+masterVim/bundle/vim-snippets/.git/objects/d3/
+masterVim/bundle/vim-snippets/.git/objects/d3/c2fe7b4f69d81b0d66d53f4a05824a2ec6fc23
+masterVim/bundle/vim-snippets/.git/objects/da/
+masterVim/bundle/vim-snippets/.git/objects/da/157ef0793435ac3026cc6cbfa3ea7f595687e7
+masterVim/bundle/vim-snippets/.git/objects/db/
+masterVim/bundle/vim-snippets/.git/objects/db/b2396db58568660d234f29a8a4d18038e6cd1a
+masterVim/bundle/vim-snippets/.git/objects/e1/
+masterVim/bundle/vim-snippets/.git/objects/e1/1e64cfb426ff6cc0aa9b15634f1913841607fa
+masterVim/bundle/vim-snippets/.git/objects/e6/
+masterVim/bundle/vim-snippets/.git/objects/e6/50e4295d5af0d6eec66ccdb019b5f26b09d99d
+masterVim/bundle/vim-snippets/.git/objects/eb/
+masterVim/bundle/vim-snippets/.git/objects/eb/91d21bfd1bd0b9cee764da6bbc217932201355
+masterVim/bundle/vim-snippets/.git/objects/ed/
+masterVim/bundle/vim-snippets/.git/objects/ed/e9090d9de33f45a9a4a6cb4f4e1e7125e19b17
+masterVim/bundle/vim-snippets/.git/objects/fc/
+masterVim/bundle/vim-snippets/.git/objects/fc/8f9e1f699ce784170b8d90758e48305f10fdaa
+masterVim/bundle/vim-snippets/.git/objects/fe/
+masterVim/bundle/vim-snippets/.git/objects/fe/cde8b332d8ca30580898341c0fcd8f902b76b7
+masterVim/bundle/vim-snippets/.git/refs/heads/
+masterVim/bundle/vim-snippets/.git/refs/heads/master
+masterVim/bundle/vim-snippets/.git/refs/remotes/origin/
+masterVim/bundle/vim-snippets/.git/refs/remotes/origin/master
+masterVim/bundle/vim-snippets/UltiSnips/
+masterVim/bundle/vim-snippets/UltiSnips/java.snippets
+masterVim/bundle/vim-snippets/UltiSnips/tex.snippets
+masterVim/bundle/vim-snippets/UltiSnips/vim.snippets
+masterVim/bundle/vim-snippets/snippets/
+masterVim/bundle/vim-snippets/snippets/tex.snippets
+masterVim/bundle/vim-snippets/snippets/vim.snippets
+
+sent 159971 bytes  received 3304 bytes  4473.29 bytes/sec
+total size is 47621443  speedup is 291.66
+file pulling
+2014-05-12 18:27:05.654369
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+masterVim/spell/en.utf-8.add
+masterVim/spell/en.utf-8.add.spl
+
+sent 86250 bytes  received 140 bytes  3839.56 bytes/sec
+total size is 47630059  speedup is 551.34
+file pulling
+2014-05-13 00:27:03.181659
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83552 bytes  received 150 bytes  3720.09 bytes/sec
+total size is 47630367  speedup is 569.05
+file pulling
+2014-05-13 06:27:02.921844
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+./
+vimrc.vim
+.git/
+.git/FETCH_HEAD
+masterVim/
+masterVim/pullall.log
+masterVim/bundle/LaTeX-Box/.git/
+masterVim/bundle/LaTeX-Box/.git/FETCH_HEAD
+masterVim/bundle/RltvNmbr/.git/
+masterVim/bundle/RltvNmbr/.git/FETCH_HEAD
+masterVim/bundle/UnconditionalPaste/.git/
+masterVim/bundle/UnconditionalPaste/.git/FETCH_HEAD
+masterVim/bundle/applescript.vim/.git/
+masterVim/bundle/applescript.vim/.git/FETCH_HEAD
+masterVim/bundle/ctrlp.vim/.git/
+masterVim/bundle/ctrlp.vim/.git/FETCH_HEAD
+masterVim/bundle/syntastic/.git/
+masterVim/bundle/syntastic/.git/FETCH_HEAD
+masterVim/bundle/vim-airline/.git/
+masterVim/bundle/vim-airline/.git/FETCH_HEAD
+masterVim/bundle/vim-autoclose/.git/
+masterVim/bundle/vim-autoclose/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/
+masterVim/bundle/vim-fugitive/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/ORIG_HEAD
+masterVim/bundle/vim-signify/.git/
+masterVim/bundle/vim-signify/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/
+masterVim/bundle/vim-snippets/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/ORIG_HEAD
+
+sent 84543 bytes  received 738 bytes  34112.40 bytes/sec
+total size is 47610235  speedup is 558.27
+file pulling
+2014-05-13 12:27:04.171667
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83517 bytes  received 156 bytes  15213.27 bytes/sec
+total size is 47611510  speedup is 569.02
+file pulling
+2014-05-13 18:27:04.916810
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83447 bytes  received 168 bytes  9837.06 bytes/sec
+total size is 47611757  speedup is 569.42
+file pulling
+2014-05-14 00:27:04.182588
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+.git/
+.git/FETCH_HEAD
+masterVim/pullall.log
+masterVim/bundle/LaTeX-Box/.git/
+masterVim/bundle/LaTeX-Box/.git/FETCH_HEAD
+masterVim/bundle/RltvNmbr/.git/
+masterVim/bundle/RltvNmbr/.git/FETCH_HEAD
+masterVim/bundle/UnconditionalPaste/.git/
+masterVim/bundle/UnconditionalPaste/.git/FETCH_HEAD
+masterVim/bundle/applescript.vim/.git/
+masterVim/bundle/applescript.vim/.git/FETCH_HEAD
+masterVim/bundle/ctrlp.vim/.git/
+masterVim/bundle/ctrlp.vim/.git/FETCH_HEAD
+masterVim/bundle/syntastic/.git/
+masterVim/bundle/syntastic/.git/FETCH_HEAD
+masterVim/bundle/ultisnips/pythonx/UltiSnips/
+masterVim/bundle/ultisnips/pythonx/UltiSnips/snippet/
+masterVim/bundle/ultisnips/pythonx/UltiSnips/snippet/definition/
+masterVim/bundle/ultisnips/pythonx/UltiSnips/snippet/parsing/
+masterVim/bundle/ultisnips/pythonx/UltiSnips/snippet/source/
+masterVim/bundle/ultisnips/pythonx/UltiSnips/snippet/source/file/
+masterVim/bundle/ultisnips/pythonx/UltiSnips/text_objects/
+masterVim/bundle/vim-airline/.git/
+masterVim/bundle/vim-airline/.git/FETCH_HEAD
+masterVim/bundle/vim-autoclose/.git/
+masterVim/bundle/vim-autoclose/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/
+masterVim/bundle/vim-fugitive/.git/FETCH_HEAD
+masterVim/bundle/vim-signify/.git/
+masterVim/bundle/vim-signify/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/
+masterVim/bundle/vim-snippets/.git/FETCH_HEAD
+
+sent 84080 bytes  received 624 bytes  3321.73 bytes/sec
+total size is 47612003  speedup is 562.10
+file pulling
+2014-05-14 06:27:16.560236
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+./
+masterVim/pullall.log
+
+sent 83612 bytes  received 174 bytes  8819.58 bytes/sec
+total size is 47613576  speedup is 568.28
+file pulling
+2014-05-14 18:27:07.937610
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+./
+vimrc.vim
+.git/
+.git/FETCH_HEAD
+masterVim/
+masterVim/.netrwhist
+masterVim/pullall.log
+masterVim/bundle/LaTeX-Box/.git/
+masterVim/bundle/LaTeX-Box/.git/FETCH_HEAD
+masterVim/bundle/RltvNmbr/.git/
+masterVim/bundle/RltvNmbr/.git/FETCH_HEAD
+masterVim/bundle/UnconditionalPaste/.git/
+masterVim/bundle/UnconditionalPaste/.git/FETCH_HEAD
+masterVim/bundle/applescript.vim/.git/
+masterVim/bundle/applescript.vim/.git/FETCH_HEAD
+masterVim/bundle/ctrlp.vim/.git/
+masterVim/bundle/ctrlp.vim/.git/FETCH_HEAD
+masterVim/bundle/syntastic/.git/
+masterVim/bundle/syntastic/.git/FETCH_HEAD
+masterVim/bundle/vim-airline/.git/
+masterVim/bundle/vim-airline/.git/FETCH_HEAD
+masterVim/bundle/vim-autoclose/.git/
+masterVim/bundle/vim-autoclose/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/
+masterVim/bundle/vim-fugitive/.git/FETCH_HEAD
+masterVim/bundle/vim-signify/.git/
+masterVim/bundle/vim-signify/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/
+masterVim/bundle/vim-snippets/.git/FETCH_HEAD
+
+sent 84402 bytes  received 746 bytes  3096.29 bytes/sec
+total size is 47613905  speedup is 559.19
+file pulling
+2014-05-15 06:27:06.590769
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83499 bytes  received 186 bytes  4291.54 bytes/sec
+total size is 47615110  speedup is 568.98
+file pulling
+2014-05-15 18:27:05.960798
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+.git/
+.git/FETCH_HEAD
+masterVim/
+masterVim/.netrwhist
+masterVim/pullall.log
+masterVim/bundle/LaTeX-Box/.git/
+masterVim/bundle/LaTeX-Box/.git/FETCH_HEAD
+masterVim/bundle/RltvNmbr/.git/
+masterVim/bundle/RltvNmbr/.git/FETCH_HEAD
+masterVim/bundle/UnconditionalPaste/.git/
+masterVim/bundle/UnconditionalPaste/.git/FETCH_HEAD
+masterVim/bundle/applescript.vim/.git/
+masterVim/bundle/applescript.vim/.git/FETCH_HEAD
+masterVim/bundle/ctrlp.vim/.git/
+masterVim/bundle/ctrlp.vim/.git/FETCH_HEAD
+masterVim/bundle/syntastic/.git/
+masterVim/bundle/syntastic/.git/FETCH_HEAD
+masterVim/bundle/vim-airline/.git/
+masterVim/bundle/vim-airline/.git/FETCH_HEAD
+masterVim/bundle/vim-autoclose/.git/
+masterVim/bundle/vim-autoclose/.git/FETCH_HEAD
+masterVim/bundle/vim-fugitive/.git/
+masterVim/bundle/vim-fugitive/.git/FETCH_HEAD
+masterVim/bundle/vim-signify/.git/
+masterVim/bundle/vim-signify/.git/FETCH_HEAD
+masterVim/bundle/vim-snippets/.git/
+masterVim/bundle/vim-snippets/.git/FETCH_HEAD
+
+sent 84188 bytes  received 646 bytes  8929.89 bytes/sec
+total size is 47615356  speedup is 561.28
+file pulling
+2014-05-16 00:27:06.008429
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83491 bytes  received 198 bytes  15216.18 bytes/sec
+total size is 47616548  speedup is 568.97
+file pulling
+2014-05-16 06:27:02.591052
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83455 bytes  received 210 bytes  5770.00 bytes/sec
+total size is 47616795  speedup is 569.14
+file pulling
+2014-05-16 12:27:06.506433
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83487 bytes  received 210 bytes  9846.71 bytes/sec
+total size is 47617041  speedup is 568.92
+file pulling
+2014-05-16 18:27:04.841293
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83515 bytes  received 210 bytes  7280.43 bytes/sec
+total size is 47617287  speedup is 568.73
+file pulling
+2014-05-17 00:27:02.499398
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 83456 bytes  received 216 bytes  11156.27 bytes/sec
+total size is 47617533  speedup is 569.10
+file pulling
+2014-05-17 06:27:03.344514
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.log
+
+sent 85250 bytes  received 216 bytes  24418.86 bytes/sec
+total size is 47645460  speedup is 557.48

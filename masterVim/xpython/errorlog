@@ -1,0 +1,22 @@
+An error occured. This is either a bug in UltiSnips or a bug in a
+snippet definition. If you think this is a bug, please report it to
+https://github.com/SirVer/ultisnips/issues/new.
+
+Following is the full stack trace:
+Traceback (most recent call last):
+  File "/Users/sugarfrosted/.vim/bundle/ultisnips/pythonx/UltiSnips/snippet_manager.py", line 54, in wrapper
+    return func(self, *args, **kwds)
+  File "/Users/sugarfrosted/.vim/bundle/ultisnips/pythonx/UltiSnips/snippet_manager.py", line 118, in expand
+    if not self._try_expand():
+  File "/Users/sugarfrosted/.vim/bundle/ultisnips/pythonx/UltiSnips/snippet_manager.py", line 529, in _try_expand
+    self._do_snippet(snippet, before)
+  File "/Users/sugarfrosted/.vim/bundle/ultisnips/pythonx/UltiSnips/snippet_manager.py", line 502, in _do_snippet
+    None, start, end)
+  File "/Users/sugarfrosted/.vim/bundle/ultisnips/pythonx/UltiSnips/snippet/definition/_base.py", line 228, in launch
+    snippet_instance.update_textobjects()
+  File "/Users/sugarfrosted/.vim/bundle/ultisnips/pythonx/UltiSnips/text_objects/_snippet_instance.py", line 67, in update_textobjects
+    if obj._update(done):
+  File "/Users/sugarfrosted/.vim/bundle/ultisnips/pythonx/UltiSnips/text_objects/_python_code.py", line 199, in _update
+    exec(code, self._locals)  # pylint:disable=exec-used
+  File "<string>", line 2, in <module>
+ImportError: No module named snip

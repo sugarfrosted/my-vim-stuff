@@ -1,0 +1,3 @@
+[submodule "masterVim/bundle/ultisnips"]
+	path = masterVim/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git

@@ -1,0 +1,30 @@
+
+Already up-to-date.
+Already up-to-date.
+Already up-to-date.
+Updating 24eab03..43e8cb9
+Fast-forward
+ plugin/syntastic.vim           | 2 +-
+ syntax_checkers/lisp/clisp.vim | 7 +++----
+ 2 files changed, 4 insertions(+), 5 deletions(-)
+Updating 2f84899..f2d9e8b
+Fast-forward
+ README.md                            |   4 +-
+ autoload/unite/sources/ultisnips.vim |  56 ++++++++++++++++++
+ doc/UltiSnips.txt                    |  20 ++++++-
+ plugin/snipMate_compatibility.vim    |  15 +++++
+ pythonx/UltiSnips/_vim.py            |   4 +-
+ test.py                              |  35 ++++++++++++
+ utils/convert_snipmate_snippets.py   | 108 -----------------------------------
+ 7 files changed, 129 insertions(+), 113 deletions(-)
+ create mode 100644 autoload/unite/sources/ultisnips.vim
+ create mode 100644 plugin/snipMate_compatibility.vim
+ delete mode 100755 utils/convert_snipmate_snippets.py
+Updating db0ea7a..7b56fbd
+Fast-forward
+ autoload/airline/extensions/nrrwrgn.vim | 42 ++++++++++++++++++++++++++++-----
+ 1 file changed, 36 insertions(+), 6 deletions(-)
+Already up-to-date.
+Already up-to-date.
+Already up-to-date.
+Already up-to-date.

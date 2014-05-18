@@ -1,0 +1,11 @@
+2014-05-11 06:15:00.810196
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+file pulling
+2014-05-11 06:27:01.216478
+/Users/sugarfrosted/.vim/bundle/applescript.vim
+rsyncing
+building file list ... done
+masterVim/pullall.txt
+
+sent 80369 bytes  received 48 bytes  12371.85 bytes/sec
+total size is 47530331  speedup is 591.05

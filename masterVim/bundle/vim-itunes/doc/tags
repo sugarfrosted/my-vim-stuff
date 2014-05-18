@@ -1,0 +1,14 @@
+!_TAG_FILE_ENCODING	utf-8	//
+itunes#loop()	vim-itunes.txt	/*itunes#loop()*
+itunes#next()	vim-itunes.txt	/*itunes#next()*
+itunes#pause()	vim-itunes.txt	/*itunes#pause()*
+itunes#play()	vim-itunes.txt	/*itunes#play()*
+itunes#prev()	vim-itunes.txt	/*itunes#prev()*
+itunes#repeat()	vim-itunes.txt	/*itunes#repeat()*
+itunes#stop()	vim-itunes.txt	/*itunes#stop()*
+itunes#volume_down()	vim-itunes.txt	/*itunes#volume_down()*
+itunes#volume_up()	vim-itunes.txt	/*itunes#volume_up()*
+vim-itunes-contents	vim-itunes.txt	/*vim-itunes-contents*
+vim-itunes-functions	vim-itunes.txt	/*vim-itunes-functions*
+vim-itunes-interface	vim-itunes.txt	/*vim-itunes-interface*
+vim-itunes-introduction	vim-itunes.txt	/*vim-itunes-introduction*
